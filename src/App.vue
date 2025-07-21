@@ -73,12 +73,17 @@ function buildDeck() {
   const allCards = cardDecks[selection.value.game].cards;
   
   // 1. 筛选卡牌
-  let availableCards = allCards.filter(card => {
-    if (selection.value.type === 'large' && card.type === 'small') return false;
-    if (selection.value.type === 'small' && card.type === 'large') return false;
-    if (selection.value.era === 'canal' && card.isRailEra) return false;
-    return true;
-  });
+  let availableCards = null;
+  if (selection.value.game == "lancashire"){
+    availableCards = allCards.filter(card => {
+      if (selection.value.type === 'large' && card.type === 'small') return false;
+      if (selection.value.type === 'small' && card.type === 'large') return false;
+      if (selection.value.era === 'canal' && card.isRailEra) return false;
+      return true;
+    });
+  } else {
+    availableCards = allCards;
+  }
 
   // 2. 按A, B, C分组
   const groups = {

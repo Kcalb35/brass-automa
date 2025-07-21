@@ -54,9 +54,29 @@ export const lancashireCards = [
   { id: 42, type: 'large', isRailEra: false, group: 'C' },
 ];
 
-// 为伯明翰预留的牌堆
 export const birminghamCards = [
-  // 伯明翰卡牌数据将在这里定义
+  { id: 1, type: 'common', isRailEra: true, group: 'A' },
+  { id: 2, type: 'common', isRailEra: true, group: 'A' },
+  { id: 3, type: 'common', isRailEra: true, group: 'B' },
+  { id: 4, type: 'common', isRailEra: true, group: 'B' },
+  { id: 5, type: 'common', isRailEra: true, group: 'C' },
+  { id: 6, type: 'common', isRailEra: true, group: 'B' },
+  { id: 7, type: 'common', isRailEra: true, group: 'A' },
+  { id: 8, type: 'common', isRailEra: true, group: 'A' },
+  { id: 9, type: 'common', isRailEra: true, group: 'C' },
+  { id: 10, type: 'common', isRailEra: true, group: 'A' },
+  { id: 11, type: 'common', isRailEra: true, group: 'A' },
+  { id: 12, type: 'common', isRailEra: true, group: 'B' },
+  { id: 13, type: 'common', isRailEra: true, group: 'A' },
+  { id: 14, type: 'common', isRailEra: true, group: 'C' },
+  { id: 15, type: 'common', isRailEra: true, group: 'C' },
+  { id: 16, type: 'common', isRailEra: true, group: 'A' },
+  { id: 17, type: 'common', isRailEra: true, group: 'A' },
+  { id: 18, type: 'common', isRailEra: true, group: 'A' },
+  { id: 19, type: 'common', isRailEra: true, group: 'C' },
+  { id: 20, type: 'common', isRailEra: true, group: 'A' },
+  { id: 21, type: 'common', isRailEra: true, group: 'C' },
+  { id: 22, type: 'common', isRailEra: true, group: 'A' },
 ];
 
 // 导出所有牌堆
